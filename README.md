@@ -7,6 +7,8 @@ Join to our telegram group @darktunnel_group or click [here](https://t.me/darktu
 
 Install
 -------
+**windows installation**
+	install golang [here](https://go.dev/doc/install)
 
 **Latest Release**
 
@@ -18,6 +20,10 @@ Install
 
 
 #### Add go bin to PATH
+
+**windows CMD**
+
+	echo 'PATH="$PATH:%USERPROFILE%/go/bin"' >> %USERPROFILE%/.bashrc
 
 **Bash**
 
@@ -65,3 +71,4 @@ Visit subfinder repo if you want to install subfinder [here](https://github.com/
 #### Note
 
 * Another subcommand for scanning will be updated soon.
+* default folder will be %USERPROFILE%\go\bin (windows)
