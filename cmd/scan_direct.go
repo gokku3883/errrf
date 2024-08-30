@@ -105,6 +105,11 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 	hCfRay := httpRes.Header.Get("CF-RAY")
 	hLocation := httpRes.Header.Get("Location")
 
+	// Check if Location header is set to "https://jio.com/BalanceExhaust"
+	if hLocation == "https://jio.com/BalanceExhaust" {
+		return // Skip this result
+	}
+
 	resColor := color.New()
 
 	isHiddenCloudflare := slices.Contains(req.ServerList, "cloudflare") && hCfRay != "" && hServerLower != "cloudflare"
