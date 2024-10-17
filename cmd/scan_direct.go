@@ -182,7 +182,7 @@ func scanDirectRun(cmd *cobra.Command, args []string) {
 			"cloudflare",
 			"cloudfront",
 			"akamaighost",
-			"fastly",
+			"varnish",
 			"sffe",
 			"varnish",
 			"Varnish",
