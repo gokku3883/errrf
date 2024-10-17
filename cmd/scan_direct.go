@@ -185,6 +185,7 @@ func scanDirectRun(cmd *cobra.Command, args []string) {
 			"fastly",
 			"sffe",
 			"varnish",
+			"Varnish",
 			"google*",
 			"volt-adc",
 		}
