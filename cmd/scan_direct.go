@@ -117,8 +117,8 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 			switch hServerLower {
 			case "cloudflare":
 				resColor = colorG1
-			case "akamaighost":
-				resColor = colorY1
+			case "Varnish":
+				resColor = colorG1
 			case "cloudfront":
 				resColor = colorG1
 			default:
