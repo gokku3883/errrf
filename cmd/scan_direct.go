@@ -184,6 +184,9 @@ func scanDirectRun(cmd *cobra.Command, args []string) {
 			"akamaighost",
 			"fastly",
 			"sffe",
+			"varnish",
+			"google*",
+			"volt-adc",
 		}
 	} else {
 		serverList = strings.Split(scanDirectFlagServerListLower, ",")
