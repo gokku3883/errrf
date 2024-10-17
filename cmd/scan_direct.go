@@ -120,7 +120,7 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 			case "fastly":
 				resColor = colorG1
 			case "cloudfront":
-				resColor = colorG1
+				resColor = colorY1
 			default:
 				resColor = colorG1
 			}
