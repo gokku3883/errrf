@@ -120,9 +120,9 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 			case "akamaighost":
 				resColor = colorY1
 			case "cloudfront":
-				resColor = colorC1
+				resColor = colorG1
 			default:
-				resColor = colorW1
+				resColor = colorG1
 			}
 			if len(req.ServerList) == 1 {
 				resColor = colorG1
