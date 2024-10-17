@@ -117,7 +117,7 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 			switch hServerLower {
 			case "cloudflare":
 				resColor = colorG1
-			case "varnish":
+			case "fastly":
 				resColor = colorG1
 			case "cloudfront":
 				resColor = colorG1
@@ -182,7 +182,7 @@ func scanDirectRun(cmd *cobra.Command, args []string) {
 			"cloudflare",
 			"cloudfront",
 			"akamaighost",
-			"varnish",
+			"fastly",
 			"sffe",
 		}
 	} else {
