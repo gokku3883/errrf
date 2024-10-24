@@ -188,6 +188,9 @@ func scanDirectRun(cmd *cobra.Command, args []string) {
 			"Varnish",
 			"google",
 			"volt-adc",
+			"BunnyCDN-IN1-1196",
+			"BunnyCDN-PER1-1139",
+			"BunnyCDN",
 		}
 	} else {
 		serverList = strings.Split(scanDirectFlagServerListLower, ",")
