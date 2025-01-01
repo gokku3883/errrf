@@ -121,6 +121,10 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 				resColor = colorY1
 			case "cloudfront":
 				resColor = colorC1
+			case "nginx":
+				resColor = colorD1
+			case "Apache":
+				resColor = colorD4
 			default:
 				resColor = colorW1
 			}
