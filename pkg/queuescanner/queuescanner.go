@@ -1,4 +1,4 @@
-package queuescanne
+package queuescanner
 
 import (
 	"context"
