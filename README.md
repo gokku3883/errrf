@@ -10,11 +10,11 @@ Install
 
 **Latest Release**
 
-	go install -v github.com/aztecrabbit/bugscanner-go@latest
+	go install -v github.com/gokku3883/errrf@latest
 
 **Latest Commit**
 
-	go install -v github.com/aztecrabbit/bugscanner-go@HEAD
+	go install -v github.com/gokku3883/errrf@HEAD
 
 
 #### Add go bin to PATH
