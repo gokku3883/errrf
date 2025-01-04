@@ -1,4 +1,4 @@
-module github.com/aztecrabbit/bugscanner-go
+module github.com/gokku3883/errrf
 
 go 1.18
 
