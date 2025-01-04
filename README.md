@@ -1,4 +1,4 @@
-# Bugscanner Go
+# Bugscanner G
 
 This tool is dedicated to [DARKTUNNEL.NET](https://www.darktunnel.net), please support us if you find this tool useful.
 
