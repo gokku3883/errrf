@@ -21,17 +21,17 @@ Install
 
 **Bash**
 
-	echo 'PATH="$PATH:$HOME/go/bin"' >> $HOME/.bashrc && source $HOME/.bashrc
+	echo 'PATH="$PATH:$HOME/go/bin"' >> $HOME/.bashrc && source $HOME/.bashr
 
 **Zsh**
 
-	echo 'PATH="$PATH:$HOME/go/bin"' >> $HOME/.zshrc && source $HOME/.zshrc
+	echo 'PATH="$PATH:$HOME/go/bin"' >> $HOME/.zshrc && source $HOME/.zshr
 
 
 Usage
 -----
 
-	bugscanner-go --help
+	bugscanner-go --hel
 
 
 ### Before Scanning
